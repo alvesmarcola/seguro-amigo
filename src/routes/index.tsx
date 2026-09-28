@@ -3,11 +3,14 @@ import { useMemo, useState } from "react";
 import heroCar from "@/assets/hero-car.jpg";
 
 // ============================================================
-// Dados de contato — TODO: confirmar com o cliente
+// Dados de contato — confirmados no site oficial mbrunoseguros.com.br
 // ============================================================
-const WHATSAPP_NUMBER = "5551999999999"; // placeholder: número real pendente
+const WHATSAPP_NUMBER = "5551999713944";
 const ADDRESS = "Avenida Gal. Flores da Cunha, 903 - 916";
 const CITY = "Cachoeirinha - RS";
+const INSTAGRAM_URL = "https://www.instagram.com/mbrunoseguros";
+const FACEBOOK_URL = "https://www.facebook.com/mbrunoseguros";
+const SITE_URL = "https://mbrunoseguros.com.br/";
 
 const whatsappLink = (message: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -677,6 +680,14 @@ function Footer() {
               >
                 {ADDRESS}
               </a>
+              <a
+                href={SITE_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-1 inline-block text-xs text-white/45 underline decoration-white/25 underline-offset-4 transition hover:text-white"
+              >
+                mbrunoseguros.com.br
+              </a>
             </div>
           </div>
         </div>
@@ -709,7 +720,7 @@ function Footer() {
           </a>
           <div className="flex gap-3">
             <a
-              href="#topo"
+              href={INSTAGRAM_URL}
               aria-label="Instagram da MBruno"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-white/25 text-white/80 transition hover:border-primary-glow hover:text-primary-glow"
             >
@@ -720,7 +731,7 @@ function Footer() {
               </svg>
             </a>
             <a
-              href="#topo"
+              href={FACEBOOK_URL}
               aria-label="Facebook da MBruno"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-white/25 text-white/80 transition hover:border-primary-glow hover:text-primary-glow"
             >
