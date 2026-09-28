@@ -1,8 +1,9 @@
 # Roadmap
 
-- [ ] Landing page — corretora de seguros de veículos (em andamento)
+- [ ] Landing page — corretora de seguros de veículos (MBruno)
   - [x] Gerar direções de design (auto/moto/caminhão/frota)
-  - [ ] Escolher direção de design com o usuário (aguardando resposta)
-  - [ ] Definir abordagem da simulação de cotação (estimativa Fipe vs. integração seguradoras)
-  - [ ] Construir landing page com a direção escolhida
-  - [ ] Implementar formulário de cotação (captura de lead)
+  - [x] Escolher direção de design com o usuário (azul da marca no lugar do laranja)
+  - [x] Definir abordagem da simulação de cotação (estimativa no site + lead via WhatsApp)
+  - [x] Construir landing page com a direção escolhida
+  - [x] Implementar formulário de cotação (captura de lead)
+  - [ ] Receber do cliente: número real do WhatsApp, links de Instagram/Facebook e arquivo da logo (bloqueado: aguardando o usuário)
