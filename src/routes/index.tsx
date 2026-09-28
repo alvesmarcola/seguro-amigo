@@ -98,6 +98,7 @@ export function Index() {
       <Header />
       <main>
         <Hero />
+        <Simulation />
         <Benefits />
         <HowItWorks />
         <Insurers />
@@ -755,14 +756,24 @@ function FloatingWhatsApp() {
 }
 
 export const Route = createFileRoute("/")({
-  component: SimulationWrapper,
+  head: () => ({
+    meta: [
+      { title: "MBruno Corretora | Seguro de Veículo — Carro, Moto e Caminhão" },
+      {
+        name: "description",
+        content:
+          "Simule grátis seu seguro de carro, moto ou caminhão. Corretora desde 1990 em Cachoeirinha-RS, cotação entre as 11 principais seguradoras do Brasil, direto no WhatsApp.",
+      },
+      { property: "og:title", content: "MBruno Corretora | Seguro de Veículo" },
+      {
+        property: "og:description",
+        content:
+          "Simule online em 1 minuto e receba a cotação das 11 principais seguradoras no seu WhatsApp. Corretora desde 1990 em Cachoeirinha-RS.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+EA_MARK    ],
+    links: [],
+  }),
+  component: Index,
 });
-
-function SimulationWrapper() {
-  return (
-    <>
-      <Index />
-      <Simulation />
-    </>
-  );
-}
