@@ -680,6 +680,14 @@ function Footer() {
               >
                 {ADDRESS}
               </a>
+              <a
+                href={SITE_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-1 inline-block text-xs text-white/45 underline decoration-white/25 underline-offset-4 transition hover:text-white"
+              >
+                mbrunoseguros.com.br
+              </a>
             </div>
           </div>
         </div>
