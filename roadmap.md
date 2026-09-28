@@ -6,4 +6,5 @@
   - [x] Definir abordagem da simulação de cotação (estimativa no site + lead via WhatsApp)
   - [x] Construir landing page com a direção escolhida
   - [x] Implementar formulário de cotação (captura de lead)
-  - [ ] Receber do cliente: número real do WhatsApp, links de Instagram/Facebook e arquivo da logo (bloqueado: aguardando o usuário)
+  - [x] Encaixar contatos oficiais (WhatsApp 5551999713944, Instagram/Facebook @mbrunoseguros, site oficial no rodapé)
+  - [ ] Receber do cliente: arquivo da logo original (bloqueado: aguardando o usuário)
