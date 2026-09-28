@@ -772,7 +772,7 @@ export const Route = createFileRoute("/")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-EA_MARK    ],
+],
     links: [],
   }),
   component: Index,
