@@ -3,11 +3,14 @@ import { useMemo, useState } from "react";
 import heroCar from "@/assets/hero-car.jpg";
 
 // ============================================================
-// Dados de contato — TODO: confirmar com o cliente
+// Dados de contato — confirmados no site oficial mbrunoseguros.com.br
 // ============================================================
-const WHATSAPP_NUMBER = "5551999999999"; // placeholder: número real pendente
+const WHATSAPP_NUMBER = "5551999713944";
 const ADDRESS = "Avenida Gal. Flores da Cunha, 903 - 916";
 const CITY = "Cachoeirinha - RS";
+const INSTAGRAM_URL = "https://www.instagram.com/mbrunoseguros";
+const FACEBOOK_URL = "https://www.facebook.com/mbrunoseguros";
+const SITE_URL = "https://mbrunoseguros.com.br/";
 
 const whatsappLink = (message: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -709,8 +712,7 @@ function Footer() {
           </a>
           <div className="flex gap-3">
             <a
-              href="#topo"
-              aria-label="Instagram da MBruno"
+              href={INSTAGRAM_URL}
               className="flex h-11 w-11 items-center justify-center rounded-full border border-white/25 text-white/80 transition hover:border-primary-glow hover:text-primary-glow"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-5 w-5">
